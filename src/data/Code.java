@@ -17,17 +17,14 @@ public enum Code {
 	* MUST CHANGE THESE LABELS *
 	*                          *
 	****************************/
-  OffTopic(CodeType.Uncoded, "Off Topic"),
-  OtherLanguages(CodeType.Uncoded, "Other Languages"),
-  Positive(CodeType.Sentiment),
-  Negative(CodeType.Sentiment),
-  Neutral(CodeType.Sentiment),
-  Scientific(CodeType.Frame),
-  Political(CodeType.Frame),
-  Economic(CodeType.Frame),
-  ELSI(CodeType.Frame, "Ethical Legal and Social"),
-  Fun(CodeType.Frame),
-  Ambiguous(CodeType.Frame);
+  general(CodeType.Frame),
+  machine_learning(CodeType.Frame),
+  math_and_statistics(CodeType.Frame),
+  visualisation(CodeType.Frame),
+  advanced_computing(CodeType.Frame),
+  data_skills(CodeType.Frame);
+  domain_expertise(CodeType.Frame);
+  advanced_computing(CodeType.Frame);
 
 
   private String label;
